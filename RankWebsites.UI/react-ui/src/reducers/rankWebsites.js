@@ -23,7 +23,7 @@ import mapValues from 'lodash/object/mapValues';
 */
 function getList(){
 
-var reqURL = "http://localhost/MLTest/api/rankwebsites/Audits" ;
+var reqURL = "http://rankwebsitesapi20170401101325.azurewebsites.net/api/rankwebsites/audits" ;
 var headerz = new Headers();
 var init = { method: 'GET',
                headers: headerz,
@@ -42,7 +42,7 @@ var init = { method: 'GET',
 }
 
 const initialState = {
-  friends: getList()
+  websites: getList()
 };
 
 export default function friends(state = initialState, action) {

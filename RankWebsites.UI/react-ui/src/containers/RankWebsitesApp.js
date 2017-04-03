@@ -12,18 +12,18 @@ import { RankWebsitesList} from '../components';
 export default class RankWebsitesApp extends Component {
 
   static propTypes = {
-    websitesById: PropTypes.object.isRequired,
+  //  websitesById: PropTypes.object.isRequired,
     dispatch: PropTypes.func.isRequired
   }
 
   render () {
-    const { rankwebsitelist: { websitesById }, dispatch } = this.props;
+    //const { rankwebsitelist: { websitesById }, dispatch } = this.props;
     const actions = bindActionCreators(actions, dispatch);
 
     return (
       <div className={styles.rankWebsitesApp}>
         <h1>Top 5 Websites of the day</h1>
-        <RankWebsitesList websites={websitesById} actions={actions} />
+      //  <RankWebsitesList websites={websitesById} actions={actions} />
       </div>
     );
   }
