@@ -5,7 +5,7 @@ The front end is powered by React JS, that talks to the Microservice to get the 
 The WEB API controllers then talks to the Entity Framework via another service layer. The service layer can be extended to add business
 logic. 
 
-This app makes use of NLog to log exceptions and verbose data. 
+This app makes the use of NLog to log exceptions and verbose data. 
 
 This app uses UNITY for dependency injection making it easier to UNIT TEST
 
