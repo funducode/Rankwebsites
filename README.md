@@ -11,6 +11,6 @@ This app uses UNITY for dependency injection making it easier to UNIT TEST
 
 This App is divided into layers that performs very specific task that makes it easily MAINTAINABLE, Scalable, Modular and extensible.
 
-This app is hosted on AZURE and services is publicly available at http://rankwebsitesapi20170401101325.azurewebsites.net/api/rankwebsites/audits
+This app is hosted on AZURE (which is great) and services is publicly available at http://rankwebsitesapi20170401101325.azurewebsites.net/api/rankwebsites/audits
 
 
