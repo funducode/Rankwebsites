@@ -1,4 +1,4 @@
-# RankWebsites
+# RankWebsites- An Amazing Project
 Sample Application that ranks websites based on number of visits created using ReactJS, ASP.NET WEB API, EF
 
 The front end is powered by React JS, that talks to the Microservice to get the data. The MicroService is created using ASP.NET WEBAPI.
